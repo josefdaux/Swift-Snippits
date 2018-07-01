@@ -1,0 +1,14 @@
+
+    /*Calls an action (@IBAction) using a custom function (changeBackgroundColorTo_____) upon clicking a button. In this case the background color of the screen changes when one of three buttons is clicked.*/
+
+     @IBAction func changeBackgroundColorToBlack(sender: UIButton) {
+        view.backgroundColor = UIColor.blackColor()
+    }
+
+    @IBAction func changeBackgroundColorToWhite(sender: UIButton) {
+        view.backgroundColor = UIColor.whiteColor()
+    }
+
+    @IBAction func changeBackgroundColorToMagenta(sender: UIButton) {
+        view.backgroundColor = UIColor.magentaColor()
+    }

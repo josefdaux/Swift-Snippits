@@ -1,0 +1,15 @@
+var x = 1
+
+switch x {
+case 0:
+    print ("x = 0")
+case 1:
+    print ("x = 1")
+default:
+    print("x is neither 0 nor 1")
+}
+
+
+/*The printed result of the above code*/
+
+X = 1

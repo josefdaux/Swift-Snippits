@@ -1,0 +1,112 @@
+//: Chapter 2 Tests
+
+let Chap1Heading : String = "Swifty - Chapter 2 Experiments - Variables"
+
+let Chap1Greeting : String = "Hello, world!"
+
+let Chap1StringIntro : String = "Variables hold data. There are many variable data types."
+
+var Chap1ConvoPart1 : String = "Do you want to hack time?"
+var Chap1ConvoPart2 : String = "Yes/ No"
+
+let Chap1IntIntro : String = "We can do math using the variable type Integer. See?"
+
+let Chap1MathQuestion : String = "Please add the following numbers..."
+var Chap1MathQuestionFirst : Int = 5
+var Chap1MathQuestionSecond : Int = 10
+let Chap1MathQuestionString : String = "The Answer is"
+print("\(Chap1MathQuestionString) \(Chap1MathQuestionFirst + Chap1MathQuestionSecond)!")
+
+
+
+//: Chapter 3 Tests
+
+let Chap2Heading = "Swifty - Chapter 2 Experiments"
+
+let Chap2MathQuestion = "Please multiply the following numbers..."
+
+var MathProblemChap2 = (10, 5)
+let Chap2MathQuestionString = "The Answer is"
+print(MathProblemChap2.0 * MathProblemChap2.1)
+
+
+let Chap2Person = (name:"Joe", age:23)
+var Chap2Friend: String?
+Chap2Friend = Chap2Person.name
+if let someone = Chap2Friend {
+    print(someone)
+}
+
+
+let Chap2Guy = (name:"Joe", age:23)
+let Chap2AgeQuestionString = "His age is..."
+print(Chap2Guy.age)
+
+
+
+//: Chapter 4 Tests
+
+let chap4Heading = "Chapter Four Experiments"
+
+
+let x = 10
+
+if x <= 8 {print("less than or equal to 8")}
+else if x == 9 {print("nine")}
+else {print("TEN")}
+
+let reals = 20
+let realz = 20
+
+if realz == reals {print("Reals and reals are the same.")}
+else {print("Reals and reals are not the same.")}
+
+
+
+//: Chapter 5 Tests
+
+let chap5Heading = "Chapter Five Experiments"
+
+
+var playerLevel = 3
+var bosslist = ["Lvl1 Boss", "Lvl2 Boss", "Lvl3 Boss", "Lvl4 Boss"]
+let bossfinal = bosslist[playerLevel]
+print(bossfinal)
+
+
+
+//: Chapter 6 Tests
+
+let chap6Heading = "Chapter Six Experiments"
+
+
+var currentlevel = 3
+var wholebosslist = [1 : "1 Boss", 2 : "2 Boss", 3 : "3 Boss", 4 : "4 Boss"]
+var currentboss = wholebosslist[currentlevel]
+print(currentboss)
+
+
+
+
+
+
+
+var str = "Hello, playground"
+
+let documentName = "The Swift Programming Language - Book 1 Chapter 1"
+
+//: How to insert variables of another type into a string.
+
+let numberOfCats = 10
+let numberOfDogs = 5
+
+var totalNumber = "The total number of dogs and cats is \(numberOfCats+numberOfDogs)."
+
+
+//: Another method of inserting variables of another type into a string.
+
+let numberOfBooks = 25
+let numberOfMagazines = 50
+let bookMagazineQuestion = "The total number of books and magazines is "
+
+var totalBooksAndMagazines =  bookMagazineQuestion + String(numberOfBooks + numberOfMagazines) + "."
